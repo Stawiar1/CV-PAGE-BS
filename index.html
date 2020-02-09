@@ -18,10 +18,9 @@
     <link rel="stylesheet" href="/css/animate.css" />
     <link rel="stylesheet" href="/css/main.css" />
 
-    <link rel="stylesheet" href="/css/main.css" />
     <link
       rel="stylesheet"
-      media="screen and (min-width: 576px)"
+      media="screen and (max-width: 420px)"
       href="/css/small.css"
     />
     <link
@@ -46,18 +45,19 @@
     ></script>
   </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+  <body data-spy="scroll" data-target="#navbar">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
       <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i>Bartłomiej Stawiarski : CV</a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
@@ -75,36 +75,39 @@
         <div class="code-shadow"></div>
         <div class="code-text">
           <h1 class="os-animation" data-animation="bounceInUp" data-delay=".2s">
-            Welcome to my <span class="blue-text">Portoflio</span>
+            Welcome to my Portoflio
           </h1>
           <p class="os-animation" data-animation="bounceInUp" data-delay=".5s">Bartłomiej Stawiarski</p>
           <img class="os-animation" data-animation="zoomIn" data-delay=".3s" src="../img/me.jpg">
           <a class="btn btn-outline-light os-animation" href="#aboutme" data-animation="bounceInUp" data-delay=".8s;">Meet me!</a>
         </div>
+        <a href="#aboutme"><i class="fas fa-chevron-down" id="aboutme"></i></a>
       </div>
     </header>
 
+    <div class="test" style="height:100vh" id="aboutme"></div>
+    
     <main>
 
+
+
+
      </main>
-
-  </body>
-
-  <script
+     <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
+    crossorigin="anonymous"></script>
+    <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
+    crossorigin="anonymous"></script>
+    <script
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
-  <script src="./js/animation.js"></script>
-  <script src="./js/jquery.waypoints.min"></script>
+    crossorigin="anonymous"></script>
+
+    <script src="./js/animation.js"></script>
+    <script src="./js/jquery.waypoints.min"></script>
+  </body>
+
 </html>
