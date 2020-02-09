@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #333;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+nav a, nav i {
+  color: white;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+nav .nav-link:hover {
+  color: red;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+nav .navbar-brand:hover {
+  color: red;
+}
+
+header {
+  color: #fff;
+  overflow: hidden;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 10px;
+}
+
+header img {
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  opacity: 0.8;
+}
+
+header .code-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/tło-home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+header .code-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+header .code-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+header p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */

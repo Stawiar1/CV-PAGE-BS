@@ -1,0 +1,76 @@
+
+*, *::after, *::before
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    scroll-behavior: smooth
+
+body
+    position: relative
+    font-family: 'Montserrat', sans-serif
+    background-color: #333
+
+//NAVBAR
+nav
+    text-transform: uppercase 
+
+    a, i
+        color: white
+        transition: color .3s
+        padding-right: 10px
+        font-weight: 600
+
+    .nav-link:hover
+        color: red
+        transition: .3s
+        
+    .navbar-brand:hover
+        color: red
+//Header
+header 
+    color: #fff
+    overflow: hidden
+
+    h1
+        text-transform: uppercase
+        font-size: 30px
+        padding: 10px
+    img
+        width: 200px
+        height: 250px
+        padding: 15px
+        opacity: 0.8
+
+    .code-img
+        position: relative
+        height: 100vh
+        background-image: url('../img/tło-home.jpg')
+        background-position: center
+        background-size: cover
+        background-attachment: fixed
+        z-index: 0
+    .code-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,.8)
+        z-index: -10
+
+    .code-text
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        height: 100%
+    p 
+        padding: 10px
+        font-size: 14px
+    
+    .btn-outline-light
+        text-transform: uppercase
+    
+
+
+
