@@ -16,6 +16,27 @@ body {
   background-color: #333;
 }
 
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.underline {
+  width: 50%;
+  height: 3px;
+  background-color: #039dff;
+  margin: 0 auto 40px;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
 nav {
   text-transform: uppercase;
 }
@@ -40,6 +61,12 @@ nav .navbar-brand:hover {
 
 nav .active {
   color: #039dff;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 header {
@@ -122,5 +149,72 @@ header .fa-chevron-down:hover {
   color: red;
   -webkit-transition: .6s;
   transition: .6s;
+}
+
+#aboutme .description {
+  font-size: 40px;
+  text-align: center;
+}
+
+#aboutme .description-p {
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+#aboutme i {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#aboutme .icon {
+  font-size: 18px;
+}
+
+#aboutme .aboutme-hover-html:hover {
+  color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#aboutme .aboutme-hover-css:hover {
+  color: blue;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#aboutme .aboutme-hover-js:hover {
+  color: #caca0a;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#aboutme .aboutme-hover-react:hover {
+  color: #039dff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#aboutme .aboutme-hover-git:hover {
+  color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#aboutme-img .jumbotron {
+  position: relative;
+  background-image: url("../img/aboutme.jpg");
+  background-position: position;
+  background-size: cover;
+  z-index: 0;
+  height: 22vh;
+}
+
+#aboutme-img .about-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
 }
 /*# sourceMappingURL=main.css.map */

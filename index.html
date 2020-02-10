@@ -47,7 +47,7 @@
 
   <body data-spy="scroll" data-target="#navbar">
 
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top shadow-bg" id="navbar">
       <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i>Bartłomiej Stawiarski : CV</a>
       <button
         class="navbar-toggler"
@@ -85,13 +85,60 @@
       </div>
     </header>
 
-    <div class="test" style="height:100vh" id="aboutme"></div>
-    
     <main>
 
+      <section id="aboutme">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="wrapper">
+            <h2 class=>about me</h2>
+            <div class="underline"></div>
+            <h3 class="description">Bartłomiej Stawiarski</h3>
+            <p class="description-p">
+              My name is Bartłomiej Stawiarski and I'm looking for my first job as Junior Front-End Developer.
+              I am at the beginning of the programming learning path and I'm looking for a company which will give
+              me an opportunity to spread my wings. Technologies I'm learning :
+            </p>
+            <div class="row">
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-html os-animation" data-animation="bounceIn" data-delay=".1s">
+              <p><i class="fab fa-html5"></i></p>
+              <h3 class="icon">HTML 5</h3>
+            </div>
 
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-css os-animation" data-animation="bounceIn" data-delay=".2s">
+              <p><i class="fab fa-css3"></i></p>
+              <h3 class="icon">CSS 3</h3>
+            </div>
 
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-js os-animation" data-animation="bounceIn" data-delay=".3s">
+              <p><i class="fab fa-js"></i></p>
+              <h3 class="icon">JavaScript</h3>
+            </div>
 
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-react os-animation" data-animation="bounceIn" data-delay=".4s">
+              <p><i class="fab fa-react"></i></i></p>
+              <h3 class="icon">React</h3>
+            </div>
+
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-react os-animation" data-animation="bounceIn" data-delay=".5s">
+              <p><i class="fab fa-react"></i></p>
+              <h3 class="icon">Redux</h3>
+            </div>
+
+            <div class="col-sm-6 col-md-4 text-center aboutme-hover-git os-animation" data-animation="bounceIn" data-delay=".6s">
+              <p><i class="fab fa-git-square"></i></p>
+              <h3 class="icon">GIT</h3>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section id="aboutme-img">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="about-shadow"></div>
+            <div class="wrapper">
+            </div>
+        </div>
+      </section>
      </main>
      <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -108,6 +155,7 @@
 
     <script src="./js/animation.js"></script>
     <script src="./js/jquery.waypoints.min"></script>
+    <script src="./js/main.js"></script>
   </body>
 
 </html>
