@@ -12,14 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', addShadow)
 
-    $(document).ready(function () {
+    //naprawa nawigacji na mobile (zamyka się po kliknięciu gdziekolwiek)
         $(document).click(function (event) {
             var clickover = $(event.target);
             var _opened = $(".navbar-collapse").hasClass("show");
-            if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+            if (_opened === true && !clickover.hasClass("navbar-toggler")) {  
                 $(".navbar-toggler").click();
             }
-        });
-    });
-});
-
+        });  
+       
+})

@@ -81,13 +81,13 @@
           <img class="os-animation" data-animation="zoomIn" data-delay=".3s" src="../img/me.jpg">
           <a class="btn btn-outline-light os-animation" href="#aboutme" data-animation="bounceInUp" data-delay=".8s;">Meet me!</a>
         </div>
-        <a href="#aboutme"><i class="fas fa-chevron-down" id="aboutme"></i></a>
+        <a href="#aboutme"><i class="fas fa-chevron-down"></i></a>
       </div>
     </header>
 
     <main>
 
-      <section id="aboutme">
+      <section id="aboutme" class="scroll-fix">
         <div class="jumbotron jumbotron-fluid">
           <div class="wrapper">
             <h2>about me</h2>
@@ -132,6 +132,7 @@
           </div>
         </div>
       </section>
+      
       <section id="aboutme-img">
         <div class="jumbotron jumbotron-fluid">
             <div class="about-shadow"></div>
@@ -144,7 +145,8 @@
         <div class="jumbotron jumbotron-fluid">
           <h2>Portfolio</h2>
           <div class="underline"></div>
-
+          <div class="portfolio-shadow"></div>
+          
           <!-- PORTFOLIO MOBILE -->
 
           <div class="wrapper">
@@ -246,19 +248,12 @@
         </div>
       </section>
 
-      <section id="aboutme-matrix">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="about-shadow"></div>
-            <div class="wrapper">
-            </div>
-        </div>
-      </section>
-
       <section id="achievments" class="scroll-fix">
         <div class="jumbotron jumbotron-fluid">
+          <div class="achievments-shadow"></div>
           <h2>Achievments</h2>
           <div class="underline"></div>
-          <div class="card-deck">
+          <div class="card-deck wrapper achievments-carousel">
             <div class="card">
               <img src="/img/cer1.JPG" class="card-img-top" alt="JS">
               <div class="card-body">
@@ -270,7 +265,7 @@
             <div class="card">
               <img src="/img/cer2.JPG" class="card-img-top" alt="REACT1">
               <div class="card-body">
-                <h5 class="card-title">REACT , REDUX & STRIPE PAYMENTS</h5>
+                <h5 class="card-title">REACT , REDUX & STRIPE</h5>
                 <p class="card-text">
                   React Course which showed me how to wirte E-commerce platform using React , Redux , Firebase (Google) and Stripe Payments.
                 </p>
@@ -279,8 +274,8 @@
             <div class="card">
               <img src="/img/cer3.JPG" class="card-img-top" alt="WEB">
               <div class="card-body">
-                <h5 class="card-title">SASS , BOOTSTRAP & RWD</h5>
-                <p class="card-text">Short course which teached me how to write full responsive pages using Sass , Bootstrap and JavaScript.</p>
+                <h5 class="card-title">BOOTSTRAP & SASS</h5>
+                <p class="card-text">Short course which teached me how to write full responsive pages (RWD) using Sass , Bootstrap and JavaScript.</p>
               </div>
             </div>
             
@@ -306,12 +301,43 @@
               </div>
             </div>
           </div>
+          <h2></br>...and many other courses</h2>
         </div>
       </section>
 
+      <section id="break">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="about-shadow"></div>
+            <div class="wrapper">
+            </div>
+        </div>
+      </section>
 
+      <section id="contact" class="scroll-fix">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="contact-shadow"></div>
+          <h2>CONTACT</h2>
+          <div class="underline"></div>
+          <div class="wrapper row text-center contact-me">
+            <div class="contact-item col-sm-6 col-lg-4">
+              <h3>E-mail</h3>
+              <p>bstawiarski@bartlomiejstawiarski.pl</p>
+            </div>
+            <div class="contact-item col-sm-6 col-lg-4">
+              <h3>Phone Number</h3>
+              <p>+48 883-048-881</p>
+            </div>
+            <div class="contact-item col-sm-6 col-lg-4">
+              <h3>GITHUB REPOSITORY</h3>
+              <a href="https://github.com/Stawiar1">https://github.com/Stawiar1<a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
+      <footer>
+        <p>&copy; 2020 Bartłomiej Stawiarski</p>
+      </footer>
 
      </main>
      <script
