@@ -142,22 +142,19 @@ header
         color: red
         transition: .4s
 #aboutme-img
-    color: #ddd
-    overflow: hidden
     .jumbotron
         position: relative
         background-attachment: fixed
         background-image: url('../img/aboutme.jpg')
-        background-position: center 
-        background-size: cover
         z-index: 0
         height: 22vh
     .about-shadow
         position: absolute
+        background-attachment: fixed
         top: 0
         width: 100%
         height: 100%
-        background-color: rgba(0,0,0,.4)
+        background-color: rgba(0,0,0,.7)
         z-index: -10
 
 //PORTFOLIO
@@ -171,10 +168,10 @@ header
         height: 500px
         
         img
-           position: absolute
-           top: 50%
-           left: 50%
-           transform: translate(-50% , -50%)
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50% , -50%)
     .carousel-caption
         position: absolute
         left: 0
@@ -187,30 +184,6 @@ header
         color: red
         font-weight: bold
   
-//ACHIEVMENTS
-#achievments
-    .jumbotron
-        position: relative
-        background-image: url('../img/matrix.jpg')
-        background-attachment: fixed 
-        background-size: cover
-        z-index: 0
-    .achievments-shadow
-        position: absolute
-        top: 0
-        width: 100%
-        height: 100%
-        background-color: rgba(0,0,0,.1)
-    h2
-        color: #fff
-
-    .card
-        transition: transform .3s
-    .card:hover
-        transform: scale(.96)
-    .card-title
-        font-weight: bold
-        text-align: center
 
 //KONTAKT
 #contact
